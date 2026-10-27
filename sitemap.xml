@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://caredayfamily.com/</loc><lastmod>2026-10-22</lastmod><priority>1.0</priority></url>
-  <url><loc>https://caredayfamily.com/blog.html</loc><lastmod>2026-10-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://caredayfamily.com/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://caredayfamily.com/blog.html</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
   <url><loc>https://caredayfamily.com/blog/parents-appointments.html</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://caredayfamily.com/blog/adhd-reminders.html</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://caredayfamily.com/blog/one-in-five.html</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://caredayfamily.com/blog/caregiver-appointment-tracker.html</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
 </urlset>
