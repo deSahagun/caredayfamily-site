@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Illustration of an older woman with gray hair and reading glasses, reading a book in a cozy armchair">
+  <!-- soft background -->
+  <circle cx="320" cy="215" r="185" fill="#F3E9DC"/>
+  <circle cx="470" cy="105" r="34" fill="#F7DFA6" opacity=".6"/>
+
+  <!-- floor -->
+  <rect x="60" y="370" width="520" height="7" rx="3.5" fill="#D9C7B0"/>
+
+  <!-- floor plant -->
+  <g>
+    <ellipse cx="112" cy="282" rx="13" ry="36" fill="#6B8F71" transform="rotate(-26 112 282)"/>
+    <ellipse cx="148" cy="278" rx="13" ry="38" fill="#557559" transform="rotate(24 148 278)"/>
+    <ellipse cx="130" cy="265" rx="12" ry="40" fill="#7FA585"/>
+    <path d="M98 370 L106 322 L154 322 L162 370 Z" fill="#C9744F"/>
+    <rect x="102" y="318" width="56" height="10" rx="3" fill="#B5643F"/>
+  </g>
+
+  <!-- armchair -->
+  <g>
+    <rect x="202" y="355" width="12" height="17" rx="3" fill="#3F5A44"/>
+    <rect x="426" y="355" width="12" height="17" rx="3" fill="#3F5A44"/>
+    <rect x="200" y="140" width="240" height="210" rx="60" fill="#6B8F71"/>
+    <rect x="190" y="292" width="260" height="66" rx="22" fill="#7FA585"/>
+    <rect x="168" y="242" width="62" height="116" rx="28" fill="#557559"/>
+    <rect x="410" y="242" width="62" height="116" rx="28" fill="#557559"/>
+  </g>
+
+  <!-- person -->
+  <g>
+    <!-- legs & shoes -->
+    <rect x="276" y="326" width="28" height="44" rx="10" fill="#2F4858"/>
+    <rect x="336" y="326" width="28" height="44" rx="10" fill="#2F4858"/>
+    <ellipse cx="286" cy="372" rx="20" ry="8" fill="#3A2E2A"/>
+    <ellipse cx="354" cy="372" rx="20" ry="8" fill="#3A2E2A"/>
+    <!-- lap -->
+    <rect x="254" y="290" width="132" height="46" rx="22" fill="#2F4858"/>
+
+    <!-- cardigan body -->
+    <path d="M258 304 Q258 232 320 226 Q382 232 382 304 Z" fill="#C9744F"/>
+    <!-- neck & collar -->
+    <rect x="310" y="208" width="20" height="24" rx="6" fill="#E8B896"/>
+    <path d="M302 228 L320 256 L338 228 Z" fill="#FBF7F0"/>
+    <!-- buttons -->
+    <circle cx="320" cy="268" r="3" fill="#F2C66D"/>
+    <circle cx="320" cy="282" r="3" fill="#F2C66D"/>
+
+    <!-- hair (back) and bun -->
+    <circle cx="320" cy="126" r="19" fill="#BFC0C6"/>
+    <path d="M311 120 q9 -8 18 0" stroke="#A6A7AE" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="320" cy="174" r="43" fill="#BFC0C6"/>
+
+    <!-- ears & head -->
+    <ellipse cx="282" cy="186" rx="7" ry="10" fill="#E8B896"/>
+    <ellipse cx="358" cy="186" rx="7" ry="10" fill="#E8B896"/>
+    <circle cx="320" cy="182" r="38" fill="#F1C6A3"/>
+
+    <!-- hair (front sweep) -->
+    <path d="M281 180 Q280 138 320 136 Q360 138 359 180 Q352 160 336 156 Q322 166 300 158 Q288 164 281 180 Z" fill="#D6D7DC"/>
+    <path d="M300 150 Q318 146 334 152" stroke="#BFC0C6" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- eyes (looking down, happy) -->
+    <path d="M299 188 q6 4 12 0" stroke="#3A2E2A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M329 188 q6 4 12 0" stroke="#3A2E2A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- reading glasses -->
+    <g stroke="#3A2E2A" stroke-width="3" fill="#FFFFFF" fill-opacity=".3">
+      <circle cx="305" cy="188" r="12"/>
+      <circle cx="335" cy="188" r="12"/>
+    </g>
+    <path d="M317 187 Q320 183 323 187" stroke="#3A2E2A" stroke-width="3" fill="none"/>
+    <path d="M293 186 L284 182" stroke="#3A2E2A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M347 186 L356 182" stroke="#3A2E2A" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- cheeks, smile, smile lines -->
+    <circle cx="295" cy="203" r="6" fill="#E89A86" opacity=".5"/>
+    <circle cx="345" cy="203" r="6" fill="#E89A86" opacity=".5"/>
+    <path d="M311 207 q9 8 18 0" stroke="#8A4B3A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M287 192 q-3 3 -2 6" stroke="#D9A588" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M353 192 q3 3 2 6" stroke="#D9A588" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <!-- sleeves -->
+    <path d="M268 248 Q258 282 282 286" stroke="#B5643F" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M372 248 Q382 282 358 286" stroke="#B5643F" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+    <!-- open book -->
+    <path d="M320 262 L278 254 L278 292 L320 300 L362 292 L362 254 Z" fill="#2F4858"/>
+    <path d="M320 264 L283 257 L283 288 L320 295 Z" fill="#FBF7F0"/>
+    <path d="M320 264 L357 257 L357 288 L320 295 Z" fill="#FFFDF8"/>
+    <g stroke="#D9C7B0" stroke-width="2" stroke-linecap="round">
+      <path d="M290 266 L312 270"/><path d="M290 274 L312 278"/><path d="M290 282 L306 285"/>
+      <path d="M328 270 L350 266"/><path d="M328 278 L350 274"/><path d="M328 286 L344 283"/>
+    </g>
+
+    <!-- hands -->
+    <circle cx="281" cy="284" r="9" fill="#F1C6A3"/>
+    <circle cx="359" cy="284" r="9" fill="#F1C6A3"/>
+  </g>
+
+  <!-- side table with tea -->
+  <g>
+    <rect x="510" y="290" width="10" height="80" fill="#A0785A"/>
+    <rect x="488" y="365" width="54" height="7" rx="3" fill="#A0785A"/>
+    <rect x="470" y="280" width="90" height="11" rx="4" fill="#B88B66"/>
+    <path d="M524 258 a11 11 0 0 1 0 20" stroke="#E8B04B" stroke-width="6" fill="none"/>
+    <rect x="494" y="250" width="32" height="30" rx="6" fill="#E8B04B"/>
+    <g stroke="#CDBBA5" stroke-width="3.5" stroke-linecap="round" fill="none">
+      <path d="M504 240 q-6 -9 0 -18 q6 -9 0 -18"/>
+      <path d="M517 240 q-6 -9 0 -18 q6 -9 0 -18"/>
+    </g>
+  </g>
+</svg>

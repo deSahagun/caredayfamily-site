@@ -261,3 +261,23 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.
 .faq-item[open] summary::after { content: "–"; }
 .faq-item summary:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 6px; }
 .faq-item p { margin: 0 0 16px; color: var(--muted); }
+
+/* ── Article visuals ── */
+.post-hero { margin: 0 0 36px; background: var(--band); border-radius: 24px; padding: 12px 24px 0; }
+.post-hero img { width: 100%; max-width: 560px; height: auto; display: block; margin: 0 auto; }
+
+.post-shot { margin: 28px auto 32px; text-align: center; }
+.post-shot img {
+  width: min(260px, 72%); height: auto; display: block; margin: 0 auto;
+  border-radius: 18px; border: 1px solid var(--line); box-shadow: 0 6px 24px rgba(23, 48, 42, 0.12);
+}
+.post-shot figcaption, .visual.team figcaption { margin-top: 10px; font-size: 0.9rem; color: var(--muted); }
+
+.team-row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 12px; padding: 10px 4px; border-top: 1px solid var(--line); font-size: 0.95rem; }
+.team-row b { color: var(--ink); }
+.team-row span { color: var(--muted); }
+
+.imsg { max-width: 360px; margin: 0 auto; width: 100%; background: var(--surface); border-radius: 24px; padding: 18px; border: 1px solid var(--line); display: grid; gap: 10px; }
+.imsg-to { font-size: 0.85rem; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+.imsg .bubble { justify-self: end; max-width: 85%; background: #0A84FF; color: #FFFFFF; padding: 10px 14px; border-radius: 18px 18px 4px 18px; font-size: 0.9rem; line-height: 1.4; }
+.imsg .bubble.them { justify-self: start; background: var(--band); color: var(--ink); border-radius: 18px 18px 18px 4px; }
