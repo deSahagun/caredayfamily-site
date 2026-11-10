@@ -281,3 +281,22 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.
 .imsg-to { font-size: 0.85rem; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 8px; }
 .imsg .bubble { justify-self: end; max-width: 85%; background: #0A84FF; color: #FFFFFF; padding: 10px 14px; border-radius: 18px 18px 4px 18px; font-size: 0.9rem; line-height: 1.4; }
 .imsg .bubble.them { justify-self: start; background: var(--band); color: var(--ink); border-radius: 18px 18px 18px 4px; }
+
+/* ── "Five apps, one app" hero ── */
+.apps-merge { margin: 0 0 36px; padding: 28px 24px; border-radius: 24px; background: var(--band); display: grid; gap: 18px; justify-items: center; }
+.apps-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; width: 100%; max-width: 560px; list-style: none; margin: 0; padding: 0; }
+.app-tile { display: grid; justify-items: center; gap: 6px; font-size: 0.8rem; font-weight: 600; color: var(--muted); text-align: center; }
+.app-tile i { width: 56px; height: 56px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); display: grid; place-items: center; color: var(--forest); }
+.app-tile svg { width: 28px; height: 28px; }
+.merge-arrow { width: 32px; height: 32px; color: var(--forest); }
+.app-one { display: grid; justify-items: center; gap: 8px; font-weight: 700; color: var(--ink); }
+.app-one img { width: 84px; height: 84px; border-radius: 20px; box-shadow: 0 6px 24px rgba(23, 48, 42, 0.18); }
+.app-one span { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+.apps-merge figcaption { font-size: 0.9rem; color: var(--muted); text-align: center; }
+@media (max-width: 480px) {
+  .apps-merge { padding: 20px 12px; }
+  .apps-row { gap: 6px; }
+  .app-tile { font-size: 0.7rem; }
+  .app-tile i { width: 46px; height: 46px; border-radius: 12px; }
+  .app-tile svg { width: 24px; height: 24px; }
+}
